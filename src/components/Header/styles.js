@@ -21,6 +21,6 @@ export const Wrapper = styled.div`
   }
 
   @media (max-width: 44rem) {
-    max-width: 20rem;
+    max-width: 25rem;
   }
 `;

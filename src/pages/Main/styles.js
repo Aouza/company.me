@@ -7,13 +7,14 @@ export const Wrapper = styled.div`
   width: 100%;
   margin: 0 auto;
   padding: 1rem 2rem;
+  padding-bottom: 6rem;
 
   @media (max-width: 74rem) {
     max-width: 40rem;
   }
 
   @media (max-width: 44rem) {
-    max-width: 20rem;
+    max-width: 25rem;
   }
 `;
 

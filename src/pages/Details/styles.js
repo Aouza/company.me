@@ -1,21 +1,17 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.main`
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
   ${({ backgroundCover }) =>
     backgroundCover
       ? css`
           background-image: url("${backgroundCover}");
-          background-position: center;
-          background-size: cover;
-          height: 60vh;
-          position: relative;
         `
       : css`
           background-image: transparent;
-          background-position: center;
-          background-size: cover;
-          height: 60vh;
-          position: relative;
         `}
 
   &:after {
@@ -28,6 +24,14 @@ export const Container = styled.main`
     top: 0;
     left: 0;
   }
+
+  @media (max-width: 74rem) {
+    height: 40vh;
+  }
+
+  @media (max-width: 44rem) {
+    height: 30vh;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -38,6 +42,7 @@ export const Wrapper = styled.div`
   z-index: 1;
   position: relative;
   top: 40%;
+  padding-bottom: 6rem;
 
   > h1 {
     font-size: 5.5rem;
@@ -54,7 +59,7 @@ export const Wrapper = styled.div`
   }
 
   @media (max-width: 44rem) {
-    max-width: 20rem;
+    max-width: 25rem;
 
     > h1 {
       font-size: 2rem;
