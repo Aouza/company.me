@@ -67,7 +67,7 @@ const Details = (props) => {
         <Iframe
           width="640"
           height="360"
-          src={`http://www.youtube.com/embed/${animeDetails.attributes?.youtubeVideoId}`}
+          src={`https://www.youtube.com/embed/${animeDetails.attributes?.youtubeVideoId}`}
           frameBorder="0"
         />
       </Modal>
