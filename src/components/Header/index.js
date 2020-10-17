@@ -10,7 +10,7 @@ const Header = () => {
   const scroll = useCallback(() => {
     const valueScroll = window.pageYOffset;
 
-    if (valueScroll > 120) {
+    if (valueScroll > 10) {
       setHeaderScroll(true);
     } else {
       setHeaderScroll(false);
