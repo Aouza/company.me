@@ -1,9 +1,16 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Container = styled.header`
   position: fixed;
   width: 100%;
   z-index: 1000;
+
+  ${({ headerScroll }) =>
+    headerScroll &&
+    css`
+      background-color: var(--color-light-gray);
+      box-shadow: 5px 5px 5px var(--color-main-box-shadow);
+    `}
 `;
 
 export const Wrapper = styled.div`

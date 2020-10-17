@@ -164,4 +164,10 @@ export const ImageContainer = styled.div`
       top: 0;
     }
   }
+
+  @media (max-width: 44rem) {
+    > button {
+      right: 1rem;
+    }
+  }
 `;
