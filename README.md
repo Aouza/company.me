@@ -14,13 +14,13 @@
 </p>
 
 <h2 align="center">
-  <img alt="Catálogo de animes" width="80%" title="Catálogo de animes" src="./.github/initial-page-company-me.gif" />
+  <img alt="Catálogo de animes" title="Catálogo de animes" src="./.github/initial-page-company-me.gif" />
 </h2>
 
 <br />
 
 <h2 align="center">
-  <img alt="Catálogo de animes" width="80%" title="Catálogo de animes" src="./.github/details-page-company-me.gif" />
+  <img alt="Catálogo de animes" title="Catálogo de animes" src="./.github/details-page-company-me.gif" />
 </h2>
 
 ## :four_leaf_clover: Tecnologias utilizadas
